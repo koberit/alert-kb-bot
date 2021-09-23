@@ -1,9 +1,9 @@
 
 // Require the necessary discord.js classes
 const { Client, Intents, MessageEmbed } = require('discord.js');
-const { token } = require('./config.json');
 const fs = require('fs')
 const axios = require('axios').default;
+var token = process.env.discordToken;
 
 
 
